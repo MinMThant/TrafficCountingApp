@@ -146,7 +146,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Videos\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="ExternalReferences\AForge.Controls.dll" />
     <Content Include="ExternalReferences\AForge.dll" />
@@ -154,8 +156,6 @@
     <Content Include="ExternalReferences\AForge.Imaging.Formats.dll" />
     <Content Include="ExternalReferences\AForge.Video.DirectShow.dll" />
     <Content Include="ExternalReferences\AForge.Video.VFW.dll" />
-    <Content Include="Videos\Bunny.avi" />
-    <Content Include="Videos\Sample.mp4" />
     <Resource Include="ExternalReferences\AForge.Video.VFW.xml" />
     <Resource Include="ExternalReferences\AForge.Video.DirectShow.xml" />
     <Resource Include="ExternalReferences\AForge.Imaging.xml" />
